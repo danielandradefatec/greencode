@@ -1,0 +1,15 @@
+{
+  "name": "greencode",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CLI de logística reversa de equipamentos de TI",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "node dist/tests/run-tests.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.3"
+  }
+}
